@@ -1,0 +1,18 @@
+<app-header></app-header>  
+
+<app-sidebar (tipoMaq)="getMaq($event)"></app-sidebar>
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper"> 
+    <app-breadcrumb></app-breadcrumb>
+    
+    <!-- Main content -->
+    <router-outlet></router-outlet>
+
+    <!-- content --> 
+  </div>
+  <!-- content-wrapper --> 
+
+  <app-footer></app-footer>
+
+  

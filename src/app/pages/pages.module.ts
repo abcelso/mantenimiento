@@ -8,6 +8,8 @@ import { HomeComponent } from '../pages/home/home.component';
 import { Page404Component } from './page404/page404.component';
 import { PagesComponent } from './pages.component';
 import { MaquinaComponent } from './maquina/maquina.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { MaquinaComponent } from './maquina/maquina.component';
     HomeComponent,
     Page404Component,
     PagesComponent,
-    MaquinaComponent
+    MaquinaComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     CommonModule,
